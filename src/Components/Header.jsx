@@ -13,7 +13,7 @@ const Navbar = () => {
           <a href="#section2">Twitter Feed</a>
         </li>
         <li className="nav-item">
-          <a href="#section3">Google News Feed</a>
+          <a href="#section3">Google News </a>
         </li>
       </ul>
     </nav>
