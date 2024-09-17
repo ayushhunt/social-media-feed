@@ -1,0 +1,29 @@
+/* src/components/YouTubeFeed.css */
+.youtube-feed {
+    padding: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    width: 22%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .card h3 {
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  
