@@ -6,6 +6,7 @@ import './HeroSection.css'; // Create this CSS file for additional styling
 
 const HeroSection = () => {
   return (
+    <div className='container'>
     <div className="hero-section">
       <Carousel 
         showArrows={true} 
@@ -24,6 +25,7 @@ const HeroSection = () => {
           <h1 className="carousel-caption">Stay Updated with the Latest News</h1>
         </div>
       </Carousel>
+    </div>
     </div>
   );
 };
